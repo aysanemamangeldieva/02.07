@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: orange;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+
+button {
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#count {
+  font-size: 28px;
+  font-weight: bold;
+}
